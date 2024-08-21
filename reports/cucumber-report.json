@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ejemplo-de-caso-de-prueba;verificar-suma-de-números",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verificar suma de números",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que tengo los números 5 y 10",
+            "match": {
+              "location": "features\\step_definitions\\example.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 979100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "los sumo",
+            "match": {
+              "location": "features\\step_definitions\\example.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "el resultado debería ser 15",
+            "match": {
+              "location": "features\\step_definitions\\example.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ejemplo-de-caso-de-prueba",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ejemplo de caso de prueba",
+    "tags": [],
+    "uri": "features\\example.feature"
+  }
+]
